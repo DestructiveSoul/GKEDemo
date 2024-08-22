@@ -30,7 +30,7 @@ def hello():
   secret_id = "GKEDemo"
   #secret_value = access_secret_version(project_id, secret_id)
   secret_value = "SecretDemo"
-  return f"Hello World! the pulled secret value is {secret_value}\n"
+  return f"Hello World! \n"
 
 if __name__ == '__main__':
   app.run(host = '0.0.0.0', port = 8080)
