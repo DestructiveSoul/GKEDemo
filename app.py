@@ -14,7 +14,7 @@
 
 # [START hello-app]
 from flask import Flask
-from google.cloud import secretmanager
+#from google.cloud import secretmanager
 
 #def access_secret_version(project_id, secret_id, version_id="latest"):
 #    client = secretmanager.SecretManagerServiceClient()
