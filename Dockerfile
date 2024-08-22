@@ -15,7 +15,6 @@
 # [START dockerfile]
 FROM python:3.7-slim
 RUN pip install flask
-RUN pip install google-cloud-secret-manager
 WORKDIR /app
 COPY app.py /app/app.py
 RUN curl -o /app/your-file.json "https://clistgacc2022.blob.core.windows.net/testcont/my-project-1470244463968-a8e9afc328a9.json?sp=r&st=2024-08-22T12:11:45Z&se=2024-08-25T20:11:45Z&spr=https&sv=2022-11-02&sr=b&sig=%2B9FKFYCumZ9%2B8hE97jLflMr1jRMssp2MnXPt844aDIM%3D"
